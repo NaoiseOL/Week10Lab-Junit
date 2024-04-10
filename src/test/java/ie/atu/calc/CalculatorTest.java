@@ -17,4 +17,11 @@ public class CalculatorTest {
         myCalc = new Calculator();
         assertEquals(30,myCalc.multiply(10,3));
     }
+
+    @Test
+    public void testSubtract() {
+        myCalc = new Calculator();
+        assertEquals(25, myCalc.subtract(30, 5));
+
+    }
 }
